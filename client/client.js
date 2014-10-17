@@ -3,8 +3,17 @@ if (Meteor.isClient) {
 	Template.messages.messages = function () {
 	
 		return Messages.find({}, { 
-			sort: { time: -1 
-		}});
+			sort: { time: 1 }
+		});
+	};
+
+	Template.messages.events = {
+		"click a#delete-messages": function (event) {
+
+			event.preventDefault();
+
+			Meteor.call('removeAllMessages')
+		}
 	};
 
 	Template.actions.events = {
@@ -39,12 +48,6 @@ if (Meteor.isClient) {
 			  		message.value = '';
 				}
 			}
-		},
-		"click a#delete-messages": function (event) {
-
-			event.preventDefault();
-
-			Meteor.call('removeAllMessages')
-		}
+		}		
 	};
 }

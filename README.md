@@ -7,6 +7,10 @@ Desarrollo
 ----------
 > meteor run
 
+Screenshot
+----------
+![MUG](https://raw.githubusercontent.com/durancristhian/meteor-ito/master/screenshots/website.png)
+
 License
 ----------
 Licensed under the MIT license.
