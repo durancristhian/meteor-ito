@@ -1,0 +1,13 @@
+html {
+    font-family: Verdana, sans-serif;
+    padding: 10px;
+}
+
+.hero h1, .hero p {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.hero h1 {
+	margin-right: 15px;
+}

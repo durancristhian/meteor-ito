@@ -1,0 +1,36 @@
+<head>
+	<title>meteor-ito - by @durancristhian</title>
+	<link rel="icon" sizes="16x16" href="/favicon.ico?v=2">
+</head>
+ 
+<body>
+	{{> hero }}
+	{{> actions}}
+	{{> messages}}
+</body>
+ 
+<template name="hero">
+	<div class="hero">
+		<h1>meteor-ito</h1>
+		<p><em>My first meteor app</em></p>
+  
+  		<div>
+			{{> loginButtons align="right"}}
+  		</div>
+	</div>
+</template>
+
+<template name="messages">
+	{{#each messages}}
+		<strong>{{name}}:</strong> {{message}}<br>
+	{{/each}}
+</template>
+
+<template name="actions">
+	<p>
+		<label for="message">Message:</label>
+		<input type="text" id="message"></p>
+	<p>
+		<a href="#" id="delete-messages">Delete messages</a>
+	</p>
+</template>
