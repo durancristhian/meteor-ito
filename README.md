@@ -9,7 +9,7 @@ Desarrollo
 
 Screenshot
 ----------
-![MUG](https://raw.githubusercontent.com/durancristhian/meteor-ito/master/screenshots/website.png)
+![meteor-ito](https://raw.githubusercontent.com/durancristhian/meteor-ito/master/screenshots/website.png)
 
 License
 ----------
