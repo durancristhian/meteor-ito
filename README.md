@@ -3,6 +3,10 @@ meteor-ito
 
 > Mi primer aplicación con meteor: un chat
 
+Demo
+----------
+[meteor-ito](http://meteor-ito.meteor.com/)
+
 Desarrollo
 ----------
 > meteor run
