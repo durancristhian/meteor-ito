@@ -1,0 +1,67 @@
+html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  color: #242424;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+
+em {
+  color: #bdc3c7;
+  font-size: .8em;
+}
+
+.actions em {
+  display: block;
+  margin-top: 5px;
+}
+
+.actions fieldset {
+  padding: 0;
+}
+
+.actions fieldset input {
+  background: #fff;
+}
+
+.actions .logginButtons-container {
+  text-align: right;
+}
+
+.button-error {
+    background: rgb(202, 60, 60);
+    border-radius: 4px;
+    color: white;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.hero {
+  font-size: 25px;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.hero * {
+  display: inline-block;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.messages {
+  margin-top: 25px;
+}
+
+.messages h2 {
+  margin: 0;
+}
+
+.messages .buttons-container {
+  text-align: right;
+}
+
+.messages .message {
+  margin: 10px 0 10px 25px;
+}

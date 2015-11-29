@@ -1,21 +1,34 @@
-meteor-ito
-----------
+# meteor-ito
 
-> Mi primer aplicación con meteor: un chat
+***(FINISHED)*** :globe_with_meridians: My first meteor application: a simple chat
 
-Demo
-----------
+## Live demo
+
 [meteor-ito](http://meteor-ito.meteor.com/)
 
-Desarrollo
-----------
-> meteor run
+## Development
 
-Screenshot
-----------
-![meteor-ito](https://raw.githubusercontent.com/durancristhian/meteor-ito/master/screenshots/website.png)
+```
+cd meteor-ito
+meteor
+```
 
-License
-----------
-Licensed under the MIT license.
-Copyright (c) 2014 [@durancristhian](https://twitter.com/DuranCristhian)
+## Uploading changes
+
+```
+meteor deploy meteor-ito
+```
+
+## Screenshots
+
+> Because we all love the screenshots
+
+![meteor-ito](https://raw.githubusercontent.com/durancristhian/meteor-ito/master/screenshots/meteor-ito.png)
+
+## Contributing
+
+No restriction at all. Feel free to contribute with whatever you want.
+
+## License
+
+MIT
