@@ -1,23 +1,6 @@
 # meteor-ito
 
-***(FINISHED)*** :globe_with_meridians: My first meteor application: a simple chat
-
-## Live demo
-
-[meteor-ito](http://meteor-ito.meteor.com/)
-
-## Development
-
-```
-cd meteor-ito
-meteor
-```
-
-## Uploading changes
-
-```
-meteor deploy meteor-ito
-```
+:globe_with_meridians: My first meteor application: a simple chat
 
 ## Screenshots
 
